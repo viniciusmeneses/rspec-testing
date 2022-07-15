@@ -15,7 +15,6 @@ RSpec.describe Card do
   let(:card) { Card.new("Ace", "Spades") }
 
   it "has a rank" do
-    puts methods
     expect(card.rank).to eq("Ace")
   end
 
