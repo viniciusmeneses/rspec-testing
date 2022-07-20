@@ -1,5 +1,5 @@
 RSpec.describe "satisfy matcher" do
-  subject { "racecars" }
+  subject { "racecar" }
 
   it "is a palindrome" do
     expect(subject).to(satisfy { |value| value == value.reverse })
